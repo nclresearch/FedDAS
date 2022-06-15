@@ -1,0 +1,29 @@
+# Compose for the controller environment.
+# You'll still need to manually setup Kubernetes on a server
+version: '3'
+services:
+  rabbitmq:
+    image: rabbitmq:management
+    ports:
+      - '5672:5672'
+      - '15672:15672'
+  mysql:
+    image: mysql
+    ports:
+      - '3306:3306'
+    volumes:
+      - "../../../sql:/docker-entrypoint-initdb.d"
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+  osmotic_controller:
+    image: osmotic_controller
+    network_mode: host
+    restart: unless-stopped
+    depends_on:
+      - rabbitmq
+      - mysql
+    volumes:
+      - "./properties.json:/properties.json"
+      - "~/.kube/config:/config"
+      - "./orchestrator-cred:/orchestrator-cred"
+      - "./logs:/logs"

@@ -1,0 +1,61 @@
+# Deployment
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: registry
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: registry
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        app: registry
+    spec:
+      containers:
+        - name: registry
+          image: registry:2
+          ports:
+            - containerPort: 5000
+          volumeMounts:
+            - name: registry-storage
+              mountPath: /var/lib/registry
+              readOnly: false
+      volumes:
+        # Registry storage
+        - name: registry-storage
+          persistentVolumeClaim:
+            claimName: registry-storage-claim
+---
+# Service
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: registry
+  name: registry-service
+spec:
+  selector:
+    app: registry
+  type: NodePort
+  ports:
+    - name: registry-port
+      port: 5000
+      targetPort: 5000
+      nodePort: 32000
+      protocol: TCP
+---
+# PersistentVolumeClaim. The reason to use a PersistentVolumeClaim is the volume will stay even after the pods lifetime.
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: registry-storage-claim
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 20Gi

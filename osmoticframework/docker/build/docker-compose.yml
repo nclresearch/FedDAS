@@ -1,0 +1,12 @@
+version: "3"
+services:
+  osmotic_agent:
+    image: osmotic_agent
+    build:
+      context: ../..
+      dockerfile: ./docker/build/agent/Dockerfile
+  osmotic_controller:
+    image: osmotic_controller
+    build:
+      context: ../..
+      dockerfile: ./docker/build/controller/Dockerfile

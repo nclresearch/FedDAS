@@ -1,0 +1,11 @@
+# Compose for the agent environment.
+# This assumes you have the controller started up in another server
+# WARNING: Do not deploy the agent in a Kubernetes cluster. It will interfere or even kill core kubernetes services
+version: '3'
+services:
+  osmotic_agent:
+    image: osmotic_agent
+    network_mode: host
+    volumes:
+      - "./properties.json:/properties.json"
+      - "/var/run/docker.sock:/var/run/docker.sock"

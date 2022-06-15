@@ -1,0 +1,48 @@
+name: Agent test
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  agent-ci:
+    runs-on: ubuntu-latest
+    if: "! contains(github.event.head_commit.message, '[skip ci]')"
+    steps:
+      - name: Install docker
+        uses: docker-practice/actions-setup-docker@master
+      - name: Install Prometheus, node-exporter, and cadvisor
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y prometheus prometheus-node-exporter cadvisor
+      - name: Configure Prometheus
+        run: |
+          sudo tee /etc/prometheus/prometheus.yml > /dev/null <<EOF
+          global:
+            - scrape_interval: 1s
+                - job_name: 'node_exporter'
+                  static_configs:
+                    - targets: ['localhost:9100']
+                - job_name: 'cadvisor'
+                  static_configs:
+                    - targets: ['localhost:8080']
+          EOF
+      - name: Start Prometheus
+        run: |
+          sudo systemctl start prometheus
+      - name: Start node-exporter
+        run: |
+          sudo systemctl start prometheus-node-exporter
+      - name: Start cadvisor
+        run: |
+          sudo systemctl start cadvisor
+      - name: Setup go
+        uses: actions/setup-go@v1
+        with:
+          go-version: 1.17.5
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: build
+        run: go build -o /tmp/agent osmoticframework/agent
+      - name: test
+        run: go test -v ./agent/...

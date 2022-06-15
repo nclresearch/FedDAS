@@ -1,0 +1,14 @@
+{
+  "rabbitAddress": "amqp://guest:guest@localhost:5672",
+  "networkId": "lanNetwork-1",
+  "networkInterface": "wlan0",
+  "device_support": [
+
+  ],
+  "sensor_support": [
+
+  ],
+  "container_whitelist": [
+
+  ]
+}

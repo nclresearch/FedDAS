@@ -1,0 +1,93 @@
+name: Controller test
+on:
+  push:
+    branches:
+      - master
+jobs:
+  controller-ci:
+    runs-on: ubuntu-18.04
+    if: "! contains(github.event.head_commit.message, '[skip ci]')"
+    steps:
+      - name: Configure iptables
+        run: sudo iptables -P FORWARD ACCEPT
+      - name: Create k8s kind cluster
+        uses: helm/kind-action@v1.2.0
+        with:
+          node_image: kindest/node:v1.18.19@sha256:7af1492e19b3192a79f606e43c35fb741e520d195f96399284515f077b3b622c
+      - name: Wait for CoreDNS to be ready
+        run: |
+          cat << EOF > wait-for-coredns.sh
+          if ! kubectl -n kube-system rollout status deployment/coredns --timeout=3m ; then
+            echo "CoreDNS is stuck at a non-ready state"
+            kubectl -n kube-system get pods
+            kubectl -n kube-system describe pods coredns
+            exit 1
+          fi
+          EOF
+          bash wait-for-coredns.sh
+      # Kind's CNI is just broken. So we're just running these bare metal
+      - name: Install Prometheus, node-exporter, and cadvisor
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y prometheus prometheus-node-exporter cadvisor
+      - name: Configure Prometheus
+        # Prometheus somehow refuses to start at any port other than the default port 9090
+        # Even if you manually edit the systemd unit file. It somehow ignores the command line arguments.
+        # Thanks Github. You wasted me a lot of time.
+        run: |
+          sudo tee /etc/prometheus/prometheus.yml > /dev/null <<EOF
+          global:
+            - scrape_interval: 1s
+                - job_name: 'node_exporter'
+                  static_configs:
+                    - targets: ['localhost:9100']
+                - job_name: 'cadvisor'
+                  static_configs:
+                    - targets: ['localhost:8080']
+          EOF
+      - name: Start Prometheus
+        run: |
+          sudo systemctl start prometheus
+          sudo systemctl status prometheus
+      - name: Start node-exporter
+        run: |
+          sudo systemctl start prometheus-node-exporter
+      - name: Start cadvisor
+        run: |
+          sudo systemctl start cadvisor
+      - name: Setup rabbitmq
+        uses: nijel/rabbitmq-action@v1.0.0
+        with:
+          rabbitmq version: 3.6.6-management
+      - name: Shutdown default mysql
+        run: sudo service mysql stop
+      - name: Setup mysql
+        uses: mirromutth/mysql-action@v1.1
+        with:
+          mysql version: 8.0.27
+          mysql root password: root
+          mysql password: root
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Install mysql client 8
+        run: |
+          sudo apt purge -y mysql-client-5.7 mysql-common mysql-client-core-5.7
+          wget -q https://dev.mysql.com/get/Downloads/MySQL-8.0/mysql-server_8.0.27-1ubuntu18.04_amd64.deb-bundle.tar
+          tar -xvf mysql-server_8.0.27-1ubuntu18.04_amd64.deb-bundle.tar
+          sudo dpkg -i mysql-common_8.0.27-1ubuntu18.04_amd64.deb
+          sudo dpkg -i mysql-community-client-plugins_8.0.27-1ubuntu18.04_amd64.deb
+          sudo dpkg -i mysql-community-client-core_8.0.27-1ubuntu18.04_amd64.deb
+          sudo dpkg -i mysql-community-client_8.0.27-1ubuntu18.04_amd64.deb
+          sudo dpkg -i mysql-client_8.0.27-1ubuntu18.04_amd64.deb
+      - name: Run init SQL script
+        run: |
+          mysql --version
+          mysql --protocol tcp -h localhost -u root -proot < ./sql/init.sql
+      - name: Setup go
+        uses: actions/setup-go@v1
+        with:
+          go-version: 1.17.5
+      - name: build
+        run: go build -o /tmp/controller osmoticframework/controller
+      - name: test
+        run: go test -v ./controller/...

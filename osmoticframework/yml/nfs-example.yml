@@ -1,0 +1,21 @@
+# Example NFS PersistentVolume
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: (volume_name)
+spec:
+  capacity:
+    # Volume size. This cannot be changed once deployed
+    storage: 20Gi
+  accessModes:
+    # Choose ONE of three of them
+    # ReadWriteOnce - The volume is mounted as read write by a single node (Only one pods can use it at a time)
+    # ReadWriteMany - The volume is mounted as read write by many nodes (All pods can share this volume)
+    # ReadOnlyMany - Read only volume that can be mounted by many nodes
+    # Beware! Some volume types do not support all three of them! Check documentation!
+    # https://kubernetes.io/docs/concepts/storage/persistent-volumes/#access-modes
+    - ReadWriteOnce
+  nfs:
+    path: /nfs/share/directory
+    server: nfs_server_address
+    readOnly: false
