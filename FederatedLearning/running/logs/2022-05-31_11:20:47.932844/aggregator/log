@@ -1,0 +1,6 @@
+2022-05-31T11:20:53.142098+0100|INFO|(AGGREGATOR) finished setting up environ
+2022-05-31T11:20:57.501504+0100|INFO|Subscribed server to mqtt_client topic: /mqtt_client/publish/RayLabDesktopUbuntu_4hiR
+2022-05-31T11:20:57.512354+0100|WARNING|Payload size is : 1 Mb
+2022-05-31T11:20:57.513134+0100|INFO|RayLabDesktopUbuntu_4hiR sent msg to topic: /aggregator/publish/RayLabDesktopUbuntu_4hiR
+2022-05-31T11:21:00.129284+0100|INFO|Aggregator 0 global model accuracy: 0.07011217948717949
+2022-05-31T11:21:00.129472+0100|INFO|Aggregator 0 global model loss: 6404.6188

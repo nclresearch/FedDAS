@@ -1,0 +1,9 @@
+2022-05-24T12:08:31.837368+0100|INFO|(EXECUTOR:0) finished setting up environ
+2022-05-24T12:08:31.837932+0100|INFO|Subscribed server to mqtt_client topic: /aggregator/publish/RayLabDesktopUbuntu_whQJ
+2022-05-24T12:08:37.024260+0100|INFO| RayLabDesktopUbuntu_whQJ finished load global model
+2022-05-24T12:08:37.024454+0100|INFO|RayLabDesktopUbuntu_whQJ start to load training data ...
+2022-05-24T12:08:37.553990+0100|INFO|RayLabDesktopUbuntu_whQJ finished to load train data
+2022-05-24T12:08:37.554195+0100|INFO|RayLabDesktopUbuntu_whQJ start to load test data ...
+2022-05-24T12:08:37.636384+0100|INFO|RayLabDesktopUbuntu_whQJ finished to load test data
+2022-05-24T12:09:30.101974+0100|WARNING|Payload size is : 1 Mb
+2022-05-24T12:09:30.102265+0100|INFO|RayLabDesktopUbuntu_whQJ sent msg to topic: /mqtt_client/publish/RayLabDesktopUbuntu_whQJ

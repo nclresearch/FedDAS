@@ -1,0 +1,49 @@
+2022-05-03T21:57:24.615315+0100|INFO|(EXECUTOR:0) finished setting up environ
+2022-05-03T21:57:25.581624+0100|INFO|Got unique mqtt_client id : RayLabDesktopUbuntu_83Ux
+2022-05-03T21:57:25.582508+0100|INFO|Subscribed server to mqtt_client topic: /aggregator/publish/RayLabDesktopUbuntu_83Ux
+2022-05-03T21:57:30.381280+0100|INFO|Initializing the model ...
+2022-05-03T21:57:30.384800+0100|INFO|Model initialized
+2022-05-03T21:57:32.669581+0100|INFO| RayLabDesktopUbuntu_83Ux finished load global model
+2022-05-03T21:57:32.669857+0100|INFO|RayLabDesktopUbuntu_83Ux start to load training data ...
+2022-05-03T21:57:32.749158+0100|INFO|RayLabDesktopUbuntu_83Ux finished to load train data
+2022-05-03T21:57:32.749400+0100|INFO|RayLabDesktopUbuntu_83Ux start to load test data ...
+2022-05-03T21:57:32.756632+0100|INFO|RayLabDesktopUbuntu_83Ux finished to load test data
+2022-05-03T21:58:12.290123+0100|INFO|RayLabDesktopUbuntu_83Ux, global model accuracy: 10.15
+2022-05-03T21:58:12.290298+0100|INFO|RayLabDesktopUbuntu_83Ux, global model loss: 2.3039
+2022-05-03T21:58:12.290368+0100|INFO|RayLabDesktopUbuntu_83Ux, local model train accuracy: 74.6814
+2022-05-03T21:58:12.290423+0100|INFO|RayLabDesktopUbuntu_83Ux, local model train loss: 0.7052
+2022-05-03T21:58:12.290475+0100|INFO|RayLabDesktopUbuntu_83Ux, local model test accuracy: 71.8
+2022-05-03T21:58:12.290524+0100|INFO|RayLabDesktopUbuntu_83Ux, local model test loss: 0.8973
+2022-05-03T21:58:12.294417+0100|WARNING|Payload size is : 2 Mb
+2022-05-03T21:58:12.294757+0100|INFO|RayLabDesktopUbuntu_83Ux sent msg to topic: /mqtt_client/publish/RayLabDesktopUbuntu_83Ux
+2022-05-03T21:58:13.419891+0100|INFO| RayLabDesktopUbuntu_83Ux finished load global model
+2022-05-03T21:58:13.420161+0100|INFO|RayLabDesktopUbuntu_83Ux start to load training data ...
+2022-05-03T21:58:13.509892+0100|INFO|RayLabDesktopUbuntu_83Ux finished to load train data
+2022-05-03T21:58:13.510172+0100|INFO|RayLabDesktopUbuntu_83Ux start to load test data ...
+2022-05-03T21:58:13.518337+0100|INFO|RayLabDesktopUbuntu_83Ux finished to load test data
+2022-05-03T21:58:52.530662+0100|INFO|RayLabDesktopUbuntu_83Ux, global model accuracy: 71.8
+2022-05-03T21:58:52.530837+0100|INFO|RayLabDesktopUbuntu_83Ux, global model loss: 0.8927
+2022-05-03T21:58:52.530921+0100|INFO|RayLabDesktopUbuntu_83Ux, local model train accuracy: 88.8266
+2022-05-03T21:58:52.531009+0100|INFO|RayLabDesktopUbuntu_83Ux, local model train loss: 0.3192
+2022-05-03T21:58:52.531097+0100|INFO|RayLabDesktopUbuntu_83Ux, local model test accuracy: 70.95
+2022-05-03T21:58:52.531170+0100|INFO|RayLabDesktopUbuntu_83Ux, local model test loss: 1.0596
+2022-05-03T21:58:52.534184+0100|WARNING|Payload size is : 2 Mb
+2022-05-03T21:58:52.534516+0100|INFO|RayLabDesktopUbuntu_83Ux sent msg to topic: /mqtt_client/publish/RayLabDesktopUbuntu_83Ux
+2022-05-03T21:58:53.481012+0100|INFO| RayLabDesktopUbuntu_83Ux finished load global model
+2022-05-03T21:58:53.481266+0100|INFO|RayLabDesktopUbuntu_83Ux start to load training data ...
+2022-05-03T21:58:53.564399+0100|INFO|RayLabDesktopUbuntu_83Ux finished to load train data
+2022-05-03T21:58:53.564695+0100|INFO|RayLabDesktopUbuntu_83Ux start to load test data ...
+2022-05-03T21:58:53.570998+0100|INFO|RayLabDesktopUbuntu_83Ux finished to load test data
+2022-05-03T21:59:34.103475+0100|INFO|RayLabDesktopUbuntu_83Ux, global model accuracy: 70.95
+2022-05-03T21:59:34.103664+0100|INFO|RayLabDesktopUbuntu_83Ux, global model loss: 1.059
+2022-05-03T21:59:34.103755+0100|INFO|RayLabDesktopUbuntu_83Ux, local model train accuracy: 91.4666
+2022-05-03T21:59:34.103850+0100|INFO|RayLabDesktopUbuntu_83Ux, local model train loss: 0.2522
+2022-05-03T21:59:34.103929+0100|INFO|RayLabDesktopUbuntu_83Ux, local model test accuracy: 71.15
+2022-05-03T21:59:34.104027+0100|INFO|RayLabDesktopUbuntu_83Ux, local model test loss: 1.1126
+2022-05-03T21:59:34.106572+0100|WARNING|Payload size is : 2 Mb
+2022-05-03T21:59:34.106898+0100|INFO|RayLabDesktopUbuntu_83Ux sent msg to topic: /mqtt_client/publish/RayLabDesktopUbuntu_83Ux
+2022-05-03T21:59:35.546481+0100|INFO| RayLabDesktopUbuntu_83Ux finished load global model
+2022-05-03T21:59:35.546790+0100|INFO|RayLabDesktopUbuntu_83Ux start to load training data ...
+2022-05-03T21:59:35.631480+0100|INFO|RayLabDesktopUbuntu_83Ux finished to load train data
+2022-05-03T21:59:35.631748+0100|INFO|RayLabDesktopUbuntu_83Ux start to load test data ...
+2022-05-03T21:59:35.638019+0100|INFO|RayLabDesktopUbuntu_83Ux finished to load test data

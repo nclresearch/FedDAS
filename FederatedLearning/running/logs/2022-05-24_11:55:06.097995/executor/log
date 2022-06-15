@@ -1,0 +1,7 @@
+2022-05-24T11:55:08.629030+0100|INFO|(EXECUTOR:0) finished setting up environ
+2022-05-24T11:55:08.629598+0100|INFO|Subscribed server to mqtt_client topic: /aggregator/publish/RayLabDesktopUbuntu_6Ver
+2022-05-24T11:55:14.033512+0100|INFO| RayLabDesktopUbuntu_6Ver finished load global model
+2022-05-24T11:55:14.033730+0100|INFO|RayLabDesktopUbuntu_6Ver start to load training data ...
+2022-05-24T11:55:14.571328+0100|INFO|RayLabDesktopUbuntu_6Ver finished to load train data
+2022-05-24T11:55:14.571578+0100|INFO|RayLabDesktopUbuntu_6Ver start to load test data ...
+2022-05-24T11:55:14.660792+0100|INFO|RayLabDesktopUbuntu_6Ver finished to load test data

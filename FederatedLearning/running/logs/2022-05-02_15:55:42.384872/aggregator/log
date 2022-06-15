@@ -1,0 +1,6 @@
+2022-05-02T15:55:48.080463+0100|INFO|(AGGREGATOR) finished setting up environ
+2022-05-02T15:55:51.077743+0100|INFO|Start to partition dataset ...
+2022-05-02T15:55:54.274687+0100|INFO|Start to partition dataset ...
+2022-05-02T15:55:54.508187+0100|INFO|Subscribed server to mqtt_client topic: /mqtt_client/publish/RayLabDesktopUbuntu_7TAr
+2022-05-02T15:55:54.518507+0100|WARNING|Payload size is : 2 Mb
+2022-05-02T15:55:54.519464+0100|INFO|b'' sent msg to topic: /aggregator/publish/RayLabDesktopUbuntu_7TAr

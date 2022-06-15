@@ -1,0 +1,3 @@
+2022-04-30T23:42:09.779392+0100|INFO|(AGGREGATOR) finished setting up environ
+2022-04-30T23:42:15.180069+0100|INFO|Aggregator 0 global model accuracy: 8.18
+2022-04-30T23:42:15.180252+0100|INFO|Aggregator 0 global model loss: 2.3038

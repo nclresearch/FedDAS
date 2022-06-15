@@ -1,0 +1,5 @@
+2022-05-01T16:17:27.811845+0100|INFO|(EXECUTOR:1) finished setting up environ
+2022-05-01T16:17:28.787791+0100|INFO|Got unique client id : RayLabDesktopUbuntu_5rQz
+2022-05-01T16:17:28.788082+0100|INFO|Initializing the model ...
+2022-05-01T16:17:28.796324+0100|INFO|Model initialized
+2022-05-01T16:17:31.127081+0100|INFO|Subscribed server to client topic: /aggregator/publish/RayLabDesktopUbuntu_5rQz

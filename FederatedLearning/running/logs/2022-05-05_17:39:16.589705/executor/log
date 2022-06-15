@@ -1,0 +1,20 @@
+2022-05-05T17:39:19.221016+0100|INFO|(EXECUTOR:0) finished setting up environ
+2022-05-05T17:39:19.226323+0100|INFO|Got unique mqtt_client id : RayLabDesktopUbuntu_7uLp
+2022-05-05T17:39:19.226968+0100|INFO|Subscribed server to mqtt_client topic: /aggregator/publish/RayLabDesktopUbuntu_7uLp
+2022-05-05T17:39:19.262358+0100|INFO|(EXECUTOR:0) finished setting up environ
+2022-05-05T17:39:19.267345+0100|INFO|Got unique mqtt_client id : RayLabDesktopUbuntu_4KCp
+2022-05-05T17:39:19.268318+0100|INFO|Subscribed server to mqtt_client topic: /aggregator/publish/RayLabDesktopUbuntu_4KCp
+2022-05-05T17:39:19.281205+0100|INFO|(EXECUTOR:0) finished setting up environ
+2022-05-05T17:39:19.284969+0100|INFO|Got unique mqtt_client id : RayLabDesktopUbuntu_Knh2
+2022-05-05T17:39:19.285566+0100|INFO|Subscribed server to mqtt_client topic: /aggregator/publish/RayLabDesktopUbuntu_Knh2
+2022-05-05T17:39:19.305425+0100|INFO|(EXECUTOR:0) finished setting up environ
+2022-05-05T17:39:19.309407+0100|INFO|Got unique mqtt_client id : RayLabDesktopUbuntu_y4Sd
+2022-05-05T17:39:19.310011+0100|INFO|Subscribed server to mqtt_client topic: /aggregator/publish/RayLabDesktopUbuntu_y4Sd
+2022-05-05T17:39:19.326067+0100|INFO|(EXECUTOR:0) finished setting up environ
+2022-05-05T17:39:19.329498+0100|INFO|Got unique mqtt_client id : RayLabDesktopUbuntu_7A5z
+2022-05-05T17:39:19.330091+0100|INFO|Subscribed server to mqtt_client topic: /aggregator/publish/RayLabDesktopUbuntu_7A5z
+2022-05-05T17:39:29.563365+0100|INFO| RayLabDesktopUbuntu_7uLp finished load global model
+2022-05-05T17:39:29.625483+0100|INFO| RayLabDesktopUbuntu_4KCp finished load global model
+2022-05-05T17:39:29.647251+0100|INFO| RayLabDesktopUbuntu_Knh2 finished load global model
+2022-05-05T17:39:29.687359+0100|INFO| RayLabDesktopUbuntu_y4Sd finished load global model
+2022-05-05T17:39:29.693208+0100|INFO| RayLabDesktopUbuntu_7A5z finished load global model

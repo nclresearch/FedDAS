@@ -1,0 +1,10 @@
+2022-05-02T15:54:01.998154+0100|INFO|(EXECUTOR:1) finished setting up environ
+2022-05-02T15:54:02.926840+0100|INFO|Got unique mqtt_client id : RayLabDesktopUbuntu_3LGM
+2022-05-02T15:54:02.927194+0100|INFO|Initializing the model ...
+2022-05-02T15:54:02.970157+0100|INFO|Model initialized
+2022-05-02T15:54:05.279937+0100|INFO|Subscribed server to mqtt_client topic: /aggregator/publish/RayLabDesktopUbuntu_3LGM
+2022-05-02T15:54:09.125747+0100|INFO| RayLabDesktopUbuntu_3LGM finished load global model
+2022-05-02T15:54:09.125934+0100|INFO|RayLabDesktopUbuntu_3LGM start to load training data ...
+2022-05-02T15:54:09.206757+0100|INFO|RayLabDesktopUbuntu_3LGM finished to load train data
+2022-05-02T15:54:09.207008+0100|INFO|RayLabDesktopUbuntu_3LGM start to load test data ...
+2022-05-02T15:54:09.214311+0100|INFO|RayLabDesktopUbuntu_3LGM finished to load test data

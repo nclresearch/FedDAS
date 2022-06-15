@@ -1,0 +1,8 @@
+2022-05-02T14:17:12.576116+0100|INFO|(AGGREGATOR) finished setting up environ
+2022-05-02T14:17:16.530044+0100|INFO|Start to partition dataset ...
+2022-05-02T14:17:20.006400+0100|INFO|Start to partition dataset ...
+2022-05-02T14:17:20.255779+0100|INFO|Subscribed server to mqtt_client topic: /mqtt_client/publish/123
+2022-05-02T14:17:20.255948+0100|INFO|Payload size is : 37 b
+2022-05-02T14:17:20.256087+0100|INFO|b'' sent msg to topic: /aggregator/publish/123
+2022-05-02T14:17:21.664052+0100|INFO|Aggregator 0 global model accuracy: 10.11
+2022-05-02T14:17:21.664244+0100|INFO|Aggregator 0 global model loss: 2.3032

@@ -1,0 +1,26 @@
+2022-05-24T12:16:03.884265+0100|INFO|(AGGREGATOR) finished setting up environ
+2022-05-24T12:16:18.253565+0100|INFO|Subscribed server to mqtt_client topic: /mqtt_client/publish/RayLabDesktopUbuntu_3QoL
+2022-05-24T12:16:18.263622+0100|WARNING|Payload size is : 1 Mb
+2022-05-24T12:16:18.264365+0100|INFO|RayLabDesktopUbuntu_3QoL sent msg to topic: /aggregator/publish/RayLabDesktopUbuntu_3QoL
+2022-05-24T12:17:12.320703+0100|INFO|(AGGREGATOR) is aggregating all sub-models ...
+2022-05-24T12:17:12.333791+0100|INFO|(AGGREGATOR) finished aggregate all sub-models
+2022-05-24T12:17:12.334793+0100|INFO|Subscribed server to mqtt_client topic: /mqtt_client/publish/RayLabDesktopUbuntu_3QoL
+2022-05-24T12:17:12.350129+0100|WARNING|Payload size is : 1 Mb
+2022-05-24T12:17:12.350540+0100|INFO|RayLabDesktopUbuntu_3QoL sent msg to topic: /aggregator/publish/RayLabDesktopUbuntu_3QoL
+2022-05-24T12:18:05.404129+0100|INFO|(AGGREGATOR) is aggregating all sub-models ...
+2022-05-24T12:18:05.418398+0100|INFO|(AGGREGATOR) finished aggregate all sub-models
+2022-05-24T12:18:05.419223+0100|INFO|Subscribed server to mqtt_client topic: /mqtt_client/publish/RayLabDesktopUbuntu_3QoL
+2022-05-24T12:18:05.432335+0100|WARNING|Payload size is : 1 Mb
+2022-05-24T12:18:05.432672+0100|INFO|RayLabDesktopUbuntu_3QoL sent msg to topic: /aggregator/publish/RayLabDesktopUbuntu_3QoL
+2022-05-24T12:18:58.485757+0100|INFO|(AGGREGATOR) is aggregating all sub-models ...
+2022-05-24T12:18:58.499378+0100|INFO|(AGGREGATOR) finished aggregate all sub-models
+2022-05-24T12:18:58.500339+0100|INFO|Subscribed server to mqtt_client topic: /mqtt_client/publish/RayLabDesktopUbuntu_3QoL
+2022-05-24T12:18:58.516794+0100|WARNING|Payload size is : 1 Mb
+2022-05-24T12:18:58.517224+0100|INFO|RayLabDesktopUbuntu_3QoL sent msg to topic: /aggregator/publish/RayLabDesktopUbuntu_3QoL
+2022-05-24T12:19:51.571807+0100|INFO|(AGGREGATOR) is aggregating all sub-models ...
+2022-05-24T12:19:51.584548+0100|INFO|(AGGREGATOR) finished aggregate all sub-models
+2022-05-24T12:19:51.585409+0100|INFO|Subscribed server to mqtt_client topic: /mqtt_client/publish/RayLabDesktopUbuntu_3QoL
+2022-05-24T12:19:51.600614+0100|WARNING|Payload size is : 1 Mb
+2022-05-24T12:19:51.600987+0100|INFO|RayLabDesktopUbuntu_3QoL sent msg to topic: /aggregator/publish/RayLabDesktopUbuntu_3QoL
+2022-05-24T12:19:53.988164+0100|INFO|Aggregator 0 global model accuracy: 35.847355769230774
+2022-05-24T12:19:53.988355+0100|INFO|Aggregator 0 global model loss: 2.0734

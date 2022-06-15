@@ -1,0 +1,8 @@
+2022-05-02T16:13:22.265288+0100|INFO|(AGGREGATOR) finished setting up environ
+2022-05-02T16:16:21.401573+0100|INFO|Start to partition dataset ...
+2022-05-02T16:16:24.396924+0100|INFO|Start to partition dataset ...
+2022-05-02T16:16:24.620583+0100|INFO|Subscribed server to mqtt_client topic: /mqtt_client/publish/RayLabDesktopUbuntu_5zL3
+2022-05-02T16:16:24.630748+0100|WARNING|Payload size is : 2 Mb
+2022-05-02T16:16:24.631650+0100|INFO|b'' sent msg to topic: /aggregator/publish/RayLabDesktopUbuntu_5zL3
+2022-05-02T16:16:28.033797+0100|INFO|Aggregator 0 global model accuracy: 0.05
+2022-05-02T16:16:28.033890+0100|INFO|Aggregator 0 global model loss: 18380.2133

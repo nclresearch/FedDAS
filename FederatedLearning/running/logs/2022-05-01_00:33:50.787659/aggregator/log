@@ -1,0 +1,6 @@
+2022-05-01T00:33:56.174966+0100|INFO|(AGGREGATOR) finished setting up environ
+2022-05-01T00:34:03.163605+0100|INFO|Start to partition dataset ...
+2022-05-01T00:34:06.437992+0100|INFO|Start to partition dataset ...
+2022-05-01T00:34:06.680915+0100|INFO|self.mqtt_manager.all_mqtt_clients 1
+2022-05-01T00:34:08.077156+0100|INFO|Aggregator 0 global model accuracy: 9.32
+2022-05-01T00:34:08.077339+0100|INFO|Aggregator 0 global model loss: 2.3062

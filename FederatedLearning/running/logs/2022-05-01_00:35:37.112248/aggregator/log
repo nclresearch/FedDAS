@@ -1,0 +1,7 @@
+2022-05-01T00:35:42.849571+0100|INFO|(AGGREGATOR) finished setting up environ
+2022-05-01T00:35:51.824707+0100|INFO|Start to partition dataset ...
+2022-05-01T00:35:55.105526+0100|INFO|Start to partition dataset ...
+2022-05-01T00:35:55.346567+0100|INFO|client.subscribe_topic /client/publish/abaf5f673e8b4e1ea243b270c8399bc2-Host-RayLabDesktopUbuntu
+2022-05-01T00:35:55.346749+0100|INFO|client.publish_topic /aggregator/publish/abaf5f673e8b4e1ea243b270c8399bc2-Host-RayLabDesktopUbuntu
+2022-05-01T00:35:56.721652+0100|INFO|Aggregator 0 global model accuracy: 10.03
+2022-05-01T00:35:56.721842+0100|INFO|Aggregator 0 global model loss: 2.3016

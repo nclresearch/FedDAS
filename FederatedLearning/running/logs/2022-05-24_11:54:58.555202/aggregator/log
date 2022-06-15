@@ -1,0 +1,4 @@
+2022-05-24T11:55:03.487850+0100|INFO|(AGGREGATOR) finished setting up environ
+2022-05-24T11:55:13.823116+0100|INFO|Subscribed server to mqtt_client topic: /mqtt_client/publish/RayLabDesktopUbuntu_6Ver
+2022-05-24T11:55:13.833654+0100|WARNING|Payload size is : 1 Mb
+2022-05-24T11:55:13.834686+0100|INFO|RayLabDesktopUbuntu_6Ver sent msg to topic: /aggregator/publish/RayLabDesktopUbuntu_6Ver

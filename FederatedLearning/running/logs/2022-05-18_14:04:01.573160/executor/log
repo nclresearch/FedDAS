@@ -1,0 +1,110 @@
+2022-05-18T14:04:04.460370+0100|INFO|(EXECUTOR:0) finished setting up environ
+2022-05-18T14:04:04.464598+0100|INFO|Got unique mqtt_client id : RayLabDesktopUbuntu_K4cv
+2022-05-18T14:04:04.465535+0100|INFO|Subscribed server to mqtt_client topic: /aggregator/publish/RayLabDesktopUbuntu_K4cv
+2022-05-18T14:04:04.518891+0100|INFO|(EXECUTOR:0) finished setting up environ
+2022-05-18T14:04:04.522617+0100|INFO|Got unique mqtt_client id : RayLabDesktopUbuntu_8xcZ
+2022-05-18T14:04:04.523621+0100|INFO|Subscribed server to mqtt_client topic: /aggregator/publish/RayLabDesktopUbuntu_8xcZ
+2022-05-18T14:04:04.563267+0100|INFO|(EXECUTOR:0) finished setting up environ
+2022-05-18T14:04:04.567248+0100|INFO|Got unique mqtt_client id : RayLabDesktopUbuntu_4mRB
+2022-05-18T14:04:04.567550+0100|INFO|(EXECUTOR:0) finished setting up environ
+2022-05-18T14:04:04.568185+0100|INFO|Subscribed server to mqtt_client topic: /aggregator/publish/RayLabDesktopUbuntu_4mRB
+2022-05-18T14:04:04.572661+0100|INFO|Got unique mqtt_client id : RayLabDesktopUbuntu_8HjC
+2022-05-18T14:04:04.573402+0100|INFO|Subscribed server to mqtt_client topic: /aggregator/publish/RayLabDesktopUbuntu_8HjC
+2022-05-18T14:04:04.641321+0100|INFO|(EXECUTOR:0) finished setting up environ
+2022-05-18T14:04:04.642949+0100|INFO|(EXECUTOR:0) finished setting up environ
+2022-05-18T14:04:04.643535+0100|INFO|(EXECUTOR:0) finished setting up environ
+2022-05-18T14:04:04.644408+0100|INFO|Got unique mqtt_client id : RayLabDesktopUbuntu_3gzM
+2022-05-18T14:04:04.645001+0100|INFO|Subscribed server to mqtt_client topic: /aggregator/publish/RayLabDesktopUbuntu_3gzM
+2022-05-18T14:04:04.645550+0100|INFO|Got unique mqtt_client id : RayLabDesktopUbuntu_37t6
+2022-05-18T14:04:04.645965+0100|INFO|Got unique mqtt_client id : RayLabDesktopUbuntu_6S8S
+2022-05-18T14:04:04.646268+0100|INFO|Subscribed server to mqtt_client topic: /aggregator/publish/RayLabDesktopUbuntu_37t6
+2022-05-18T14:04:04.646693+0100|INFO|Subscribed server to mqtt_client topic: /aggregator/publish/RayLabDesktopUbuntu_6S8S
+2022-05-18T14:04:04.661795+0100|INFO|(EXECUTOR:0) finished setting up environ
+2022-05-18T14:04:04.664561+0100|INFO|Got unique mqtt_client id : RayLabDesktopUbuntu_6BSj
+2022-05-18T14:04:04.665065+0100|INFO|Subscribed server to mqtt_client topic: /aggregator/publish/RayLabDesktopUbuntu_6BSj
+2022-05-18T14:04:04.678752+0100|INFO|(EXECUTOR:0) finished setting up environ
+2022-05-18T14:04:04.681193+0100|INFO|Got unique mqtt_client id : RayLabDesktopUbuntu_7Zb3
+2022-05-18T14:04:04.681289+0100|INFO|(EXECUTOR:0) finished setting up environ
+2022-05-18T14:04:04.681635+0100|INFO|Subscribed server to mqtt_client topic: /aggregator/publish/RayLabDesktopUbuntu_7Zb3
+2022-05-18T14:04:04.684885+0100|INFO|Got unique mqtt_client id : RayLabDesktopUbuntu_87Yr
+2022-05-18T14:04:04.685573+0100|INFO|Subscribed server to mqtt_client topic: /aggregator/publish/RayLabDesktopUbuntu_87Yr
+2022-05-18T14:04:21.349788+0100|INFO| RayLabDesktopUbuntu_K4cv finished load global model
+2022-05-18T14:04:21.350212+0100|INFO|RayLabDesktopUbuntu_K4cv start to load training data ...
+2022-05-18T14:04:21.371533+0100|INFO| RayLabDesktopUbuntu_4mRB finished load global model
+2022-05-18T14:04:21.372015+0100|INFO|RayLabDesktopUbuntu_4mRB start to load training data ...
+2022-05-18T14:04:21.415688+0100|INFO| RayLabDesktopUbuntu_8xcZ finished load global model
+2022-05-18T14:04:21.416007+0100|INFO|RayLabDesktopUbuntu_8xcZ start to load training data ...
+2022-05-18T14:04:21.589759+0100|INFO| RayLabDesktopUbuntu_8HjC finished load global model
+2022-05-18T14:04:21.590949+0100|INFO|RayLabDesktopUbuntu_8HjC start to load training data ...
+2022-05-18T14:04:21.622854+0100|INFO| RayLabDesktopUbuntu_87Yr finished load global model
+2022-05-18T14:04:21.623395+0100|INFO|RayLabDesktopUbuntu_87Yr start to load training data ...
+2022-05-18T14:04:21.744976+0100|INFO| RayLabDesktopUbuntu_37t6 finished load global model
+2022-05-18T14:04:21.745264+0100|INFO|RayLabDesktopUbuntu_37t6 start to load training data ...
+2022-05-18T14:04:21.773118+0100|INFO| RayLabDesktopUbuntu_6BSj finished load global model
+2022-05-18T14:04:21.773383+0100|INFO|RayLabDesktopUbuntu_6BSj start to load training data ...
+2022-05-18T14:04:21.809676+0100|INFO| RayLabDesktopUbuntu_7Zb3 finished load global model
+2022-05-18T14:04:21.809994+0100|INFO|RayLabDesktopUbuntu_7Zb3 start to load training data ...
+2022-05-18T14:04:21.828529+0100|INFO| RayLabDesktopUbuntu_6S8S finished load global model
+2022-05-18T14:04:21.828863+0100|INFO|RayLabDesktopUbuntu_6S8S start to load training data ...
+2022-05-18T14:04:21.836235+0100|INFO| RayLabDesktopUbuntu_3gzM finished load global model
+2022-05-18T14:04:21.837040+0100|INFO|RayLabDesktopUbuntu_3gzM start to load training data ...
+2022-05-18T14:04:23.087679+0100|INFO|RayLabDesktopUbuntu_K4cv finished to load train data
+2022-05-18T14:04:23.087876+0100|INFO|RayLabDesktopUbuntu_K4cv start to load test data ...
+2022-05-18T14:04:23.183529+0100|INFO|RayLabDesktopUbuntu_K4cv finished to load test data
+2022-05-18T14:04:23.513340+0100|INFO|RayLabDesktopUbuntu_6BSj finished to load train data
+2022-05-18T14:04:23.513711+0100|INFO|RayLabDesktopUbuntu_6BSj start to load test data ...
+2022-05-18T14:04:23.639240+0100|INFO|RayLabDesktopUbuntu_6BSj finished to load test data
+2022-05-18T14:04:23.719412+0100|INFO|RayLabDesktopUbuntu_6S8S finished to load train data
+2022-05-18T14:04:23.719785+0100|INFO|RayLabDesktopUbuntu_6S8S start to load test data ...
+2022-05-18T14:04:23.845368+0100|INFO|RayLabDesktopUbuntu_8HjC finished to load train data
+2022-05-18T14:04:23.846041+0100|INFO|RayLabDesktopUbuntu_8HjC start to load test data ...
+2022-05-18T14:04:23.868104+0100|INFO|RayLabDesktopUbuntu_6S8S finished to load test data
+2022-05-18T14:04:23.930057+0100|INFO|RayLabDesktopUbuntu_8xcZ finished to load train data
+2022-05-18T14:04:23.930752+0100|INFO|RayLabDesktopUbuntu_8xcZ start to load test data ...
+2022-05-18T14:04:24.014626+0100|INFO|RayLabDesktopUbuntu_8HjC finished to load test data
+2022-05-18T14:04:24.103397+0100|INFO|RayLabDesktopUbuntu_8xcZ finished to load test data
+2022-05-18T14:04:24.746875+0100|INFO|RayLabDesktopUbuntu_4mRB finished to load train data
+2022-05-18T14:04:24.747523+0100|INFO|RayLabDesktopUbuntu_4mRB start to load test data ...
+2022-05-18T14:04:24.939766+0100|INFO|RayLabDesktopUbuntu_37t6 finished to load train data
+2022-05-18T14:04:24.940464+0100|INFO|RayLabDesktopUbuntu_37t6 start to load test data ...
+2022-05-18T14:04:25.009028+0100|INFO|RayLabDesktopUbuntu_4mRB finished to load test data
+2022-05-18T14:04:25.050820+0100|INFO|RayLabDesktopUbuntu_87Yr finished to load train data
+2022-05-18T14:04:25.051458+0100|INFO|RayLabDesktopUbuntu_87Yr start to load test data ...
+2022-05-18T14:04:25.204224+0100|INFO|RayLabDesktopUbuntu_37t6 finished to load test data
+2022-05-18T14:04:25.312388+0100|INFO|RayLabDesktopUbuntu_87Yr finished to load test data
+2022-05-18T14:04:27.686640+0100|INFO|RayLabDesktopUbuntu_7Zb3 finished to load train data
+2022-05-18T14:04:27.687780+0100|INFO|RayLabDesktopUbuntu_7Zb3 start to load test data ...
+2022-05-18T14:04:28.013575+0100|INFO|RayLabDesktopUbuntu_7Zb3 finished to load test data
+2022-05-18T14:04:32.596612+0100|INFO|RayLabDesktopUbuntu_3gzM finished to load train data
+2022-05-18T14:04:32.597350+0100|INFO|RayLabDesktopUbuntu_3gzM start to load test data ...
+2022-05-18T14:04:33.006470+0100|INFO|RayLabDesktopUbuntu_3gzM finished to load test data
+2022-05-18T14:07:22.334383+0100|INFO|RayLabDesktopUbuntu_K4cv, global model accuracy: 0.0, global model loss: 4.3122
+2022-05-18T14:07:22.334616+0100|INFO|RayLabDesktopUbuntu_K4cv, local model train accuracy: 22.631999999999998, local model train loss: 3.7374
+2022-05-18T14:07:22.334704+0100|INFO|RayLabDesktopUbuntu_K4cv, local model test accuracy: 31.630000000000003, local model test loss: 3.134
+2022-05-18T14:07:22.334787+0100|INFO|RayLabDesktopUbuntu_K4cv, model inference latency: 6.468296051025391, forward propagation latency in avg: 8.475713896903263, backward propagation latency in avg: 12.114966599045285
+2022-05-18T14:07:22.359691+0100|WARNING|Payload size is : 1 Mb
+2022-05-18T14:07:22.360329+0100|INFO|RayLabDesktopUbuntu_K4cv sent msg to topic: /mqtt_client/publish/RayLabDesktopUbuntu_K4cv
+2022-05-18T14:07:23.839294+0100|INFO|RayLabDesktopUbuntu_6BSj, global model accuracy: 0.0, global model loss: 4.3122
+2022-05-18T14:07:23.839504+0100|INFO|RayLabDesktopUbuntu_6BSj, local model train accuracy: 21.785, local model train loss: 3.7488
+2022-05-18T14:07:23.839580+0100|INFO|RayLabDesktopUbuntu_6BSj, local model test accuracy: 30.130000000000003, local model test loss: 3.132
+2022-05-18T14:07:23.839651+0100|INFO|RayLabDesktopUbuntu_6BSj, model inference latency: 6.474733352661133, forward propagation latency in avg: 8.492596589835586, backward propagation latency in avg: 12.065477811606826
+2022-05-18T14:07:23.866813+0100|WARNING|Payload size is : 1 Mb
+2022-05-18T14:07:23.867557+0100|INFO|RayLabDesktopUbuntu_6BSj sent msg to topic: /mqtt_client/publish/RayLabDesktopUbuntu_6BSj
+2022-05-18T14:07:24.412846+0100|INFO|RayLabDesktopUbuntu_6S8S, global model accuracy: 0.0, global model loss: 4.3122
+2022-05-18T14:07:24.413071+0100|INFO|RayLabDesktopUbuntu_6S8S, local model train accuracy: 21.881999999999998, local model train loss: 3.7462
+2022-05-18T14:07:24.413187+0100|INFO|RayLabDesktopUbuntu_6S8S, local model test accuracy: 29.26, local model test loss: 3.1448
+2022-05-18T14:07:24.413272+0100|INFO|RayLabDesktopUbuntu_6S8S, model inference latency: 6.6471099853515625, forward propagation latency in avg: 8.50260052711341, backward propagation latency in avg: 12.113621811957875
+2022-05-18T14:07:24.446713+0100|WARNING|Payload size is : 1 Mb
+2022-05-18T14:07:24.447316+0100|INFO|RayLabDesktopUbuntu_6S8S sent msg to topic: /mqtt_client/publish/RayLabDesktopUbuntu_6S8S
+2022-05-18T14:07:24.501021+0100|INFO|RayLabDesktopUbuntu_8xcZ, global model accuracy: 0.0, global model loss: 4.3122
+2022-05-18T14:07:24.501238+0100|INFO|RayLabDesktopUbuntu_8xcZ, local model train accuracy: 22.355, local model train loss: 3.7434
+2022-05-18T14:07:24.501353+0100|INFO|RayLabDesktopUbuntu_8xcZ, local model test accuracy: 31.0, local model test loss: 3.1239
+2022-05-18T14:07:24.501430+0100|INFO|RayLabDesktopUbuntu_8xcZ, model inference latency: 6.481647491455078, forward propagation latency in avg: 8.424216470900614, backward propagation latency in avg: 12.072827785637728
+2022-05-18T14:07:24.528815+0100|WARNING|Payload size is : 1 Mb
+2022-05-18T14:07:24.529226+0100|INFO|RayLabDesktopUbuntu_8xcZ sent msg to topic: /mqtt_client/publish/RayLabDesktopUbuntu_8xcZ
+2022-05-18T14:07:24.893127+0100|INFO|RayLabDesktopUbuntu_8HjC, global model accuracy: 0.0, global model loss: 4.3122
+2022-05-18T14:07:24.893332+0100|INFO|RayLabDesktopUbuntu_8HjC, local model train accuracy: 22.094, local model train loss: 3.7487
+2022-05-18T14:07:24.893447+0100|INFO|RayLabDesktopUbuntu_8HjC, local model test accuracy: 30.73, local model test loss: 3.1586
+2022-05-18T14:07:24.893550+0100|INFO|RayLabDesktopUbuntu_8HjC, model inference latency: 6.671667098999023, forward propagation latency in avg: 8.451523294874058, backward propagation latency in avg: 12.184898336981512
+2022-05-18T14:07:24.918651+0100|WARNING|Payload size is : 1 Mb
+2022-05-18T14:07:24.919235+0100|INFO|RayLabDesktopUbuntu_8HjC sent msg to topic: /mqtt_client/publish/RayLabDesktopUbuntu_8HjC

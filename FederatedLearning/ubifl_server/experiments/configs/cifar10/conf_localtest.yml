@@ -1,0 +1,66 @@
+basic:
+    job_name: cifar10
+    log_path: running/logs # Path of log files
+
+communication:
+    mqtt_ip: localhost
+    mqtt_port: 1883
+
+device:
+    ps_ip: localhost # Parameter server IP address.
+    num_of_clients: 1
+    client_fraction: 1 # C fraction, 0 means 1 mqtt_client, 1 means total clients
+    client_sample_mode: random
+    this_rank: 0
+
+http_services:
+    parameter_server_listen_ip: 0.0.0.0 # Flask web service listen IP
+    parameter_server_listen_port: 8088
+    parameter_server_host_port: 8088 # K8s will redirect port, this port for outside access , school server setting 30003
+    parameter_server_client_register_port: 8088
+    parameter_server_api_client_register: /client/register
+    parameter_server_api_client_join: /client/join
+    parameter_server_api_client_quit: /client/quit
+    parameter_server_api_download_dataset: /download/dataset
+
+train:
+    use_cuda: True
+    cuda_device: 0 #CUDA device name default gpu 0.
+    task: cv
+    seed: 100
+    learning_rate: 0.01 # 1e-3 for cifar10_cnn_l2
+    optimizer: adam
+    model_name: nas_bench_201_cifar10_edgegpu                    # Models: e.g., mnist_2nn, mnist_cnn, lenet5, res_net, cifar10_cnn_l2, nas_bench_201_cifar10_edgegpu ,nas_fbnet_cifar10_edgegpu
+    model_from: nas          # basic, nas
+    search_space: nasbench201 # nasbench201 or fbnet
+    checkpoints_save_path: running/checkpoints
+    num_of_comm: 100 # Number of communications
+    local_epoch: 20 # Client local training epoch
+    batch_size: 32 # Client local training batch size
+    acc_concern_rate: 0.8 # total rate is 1,  half for accuracy half for inf latency
+
+validation:
+    test_batch_size: 32
+    test_freq: 1 # Global model testing frequency(of communication)
+    eval_freq: 5
+    local_test_freq: 1
+    save_freq: 50 # Global model save frequency(of communication)
+
+data:
+    data_dir: dataset/data/cifar10
+    dataset: cifar10                     # Dataset: mnist, cifar10
+    is_iid: 0    # 0 means no 1 yes
+    save_path: running/checkpoints
+    partition_method: homo
+    partition_alpha: 1
+
+monitor:
+    is_monitoring: False
+    wandb_project: ubifl
+    influxdb_org: NCL
+    influxdb_token: TokenForNCLProject
+    influxdb_ip: 172.17.0.1  # cloud 10.79.253.130
+    influxdb_port: 8086 # cloud k8s 30004
+    prometheus_ip: 10.79.253.130  # edge 172.17.0.1
+    prometheus_port: 30000 # 9090
+

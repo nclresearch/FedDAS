@@ -1,0 +1,11 @@
+torch
+loguru>=0.5.3
+torchvision
+tqdm>=4.62.3
+pyyaml>=6.0
+wandb>=0.12.7
+requests>=2.26.0
+flask>=2.0.2
+paho-mqtt>=1.6.1
+matplotlib>=3.5.0
+influxdb-client>=1.28.0

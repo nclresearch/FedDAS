@@ -1,0 +1,6 @@
+2022-05-04T10:10:13.590101+0100|INFO|(AGGREGATOR) finished setting up environ
+2022-05-04T10:10:21.570320+0100|INFO|Start to partition dataset ...
+2022-05-04T10:10:24.904789+0100|INFO|Start to partition dataset ...
+2022-05-04T10:10:25.158055+0100|INFO|Subscribed server to mqtt_client topic: /mqtt_client/publish/RayLabDesktopUbuntu_3gKh
+2022-05-04T10:10:25.169474+0100|WARNING|Payload size is : 2 Mb
+2022-05-04T10:10:25.170442+0100|INFO|RayLabDesktopUbuntu_3gKh sent msg to topic: /aggregator/publish/RayLabDesktopUbuntu_3gKh

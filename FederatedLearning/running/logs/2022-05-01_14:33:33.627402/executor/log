@@ -1,0 +1,5 @@
+2022-05-01T14:33:36.320859+0100|INFO|(EXECUTOR:1) finished setting up environ
+2022-05-01T14:33:37.289865+0100|INFO|Got unique client id : 123
+2022-05-01T14:33:37.290234+0100|INFO|Initializing the model ...
+2022-05-01T14:33:37.298100+0100|INFO|Model initialized
+2022-05-01T14:33:39.590182+0100|INFO|Subscribed server to client topic: /aggregator/publish/123

@@ -1,0 +1,26 @@
+
+# Data
+*.tar.gz
+data/
+
+# Monitor
+wandb/
+
+# System running
+running/*
+checkpoints/
+*_logging
+cache/
+
+# IDE
+venv/
+model/checkpoints/
+.idea/
+__pycache__
+
+# NAS
+NAS-Bench-201-v1_1-096897.pth
+.ipynb_checkpoints/
+
+/api/data_preprocessing/test.py
+*.csv*

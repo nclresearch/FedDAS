@@ -1,0 +1,16 @@
+2022-05-05T20:21:40.044194+0100|INFO|(AGGREGATOR) finished setting up environ
+2022-05-05T20:22:17.324110+0100|INFO|Subscribed server to mqtt_client topic: /mqtt_client/publish/RayLabDesktopUbuntu_9377
+2022-05-05T20:22:17.338369+0100|WARNING|Payload size is : 1 Mb
+2022-05-05T20:22:17.339232+0100|INFO|RayLabDesktopUbuntu_9377 sent msg to topic: /aggregator/publish/RayLabDesktopUbuntu_9377
+2022-05-05T20:22:17.339818+0100|INFO|Subscribed server to mqtt_client topic: /mqtt_client/publish/RayLabDesktopUbuntu_6py5
+2022-05-05T20:22:17.353146+0100|WARNING|Payload size is : 1 Mb
+2022-05-05T20:22:17.353973+0100|INFO|RayLabDesktopUbuntu_6py5 sent msg to topic: /aggregator/publish/RayLabDesktopUbuntu_6py5
+2022-05-05T20:22:17.354350+0100|INFO|Subscribed server to mqtt_client topic: /mqtt_client/publish/RayLabDesktopUbuntu_6v7D
+2022-05-05T20:22:17.368920+0100|WARNING|Payload size is : 1 Mb
+2022-05-05T20:22:17.369844+0100|INFO|RayLabDesktopUbuntu_6v7D sent msg to topic: /aggregator/publish/RayLabDesktopUbuntu_6v7D
+2022-05-05T20:22:17.370379+0100|INFO|Subscribed server to mqtt_client topic: /mqtt_client/publish/RayLabDesktopUbuntu_kWv7
+2022-05-05T20:22:17.384160+0100|WARNING|Payload size is : 1 Mb
+2022-05-05T20:22:17.385248+0100|INFO|RayLabDesktopUbuntu_kWv7 sent msg to topic: /aggregator/publish/RayLabDesktopUbuntu_kWv7
+2022-05-05T20:22:17.385832+0100|INFO|Subscribed server to mqtt_client topic: /mqtt_client/publish/RayLabDesktopUbuntu_XmSz
+2022-05-05T20:22:17.402733+0100|WARNING|Payload size is : 1 Mb
+2022-05-05T20:22:17.404191+0100|INFO|RayLabDesktopUbuntu_XmSz sent msg to topic: /aggregator/publish/RayLabDesktopUbuntu_XmSz

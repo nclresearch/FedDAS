@@ -1,0 +1,6 @@
+2022-05-01T15:51:25.217984+0100|INFO|(EXECUTOR:1) finished setting up environ
+2022-05-01T15:51:26.155618+0100|INFO|Got unique client id : RayLabDesktopUbuntu_6Dq3
+2022-05-01T15:51:26.155948+0100|INFO|Initializing the model ...
+2022-05-01T15:51:26.163978+0100|INFO|Model initialized
+2022-05-01T15:51:28.464748+0100|INFO|args.mqtt_ip, int(args.mqtt_port) localhost  1883
+2022-05-01T15:51:28.465297+0100|INFO|Subscribed server to client topic: /aggregator/publish/RayLabDesktopUbuntu_6Dq3

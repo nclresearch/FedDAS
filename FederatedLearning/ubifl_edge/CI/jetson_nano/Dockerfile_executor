@@ -1,0 +1,46 @@
+# Base on image_full_name (e.g., ubuntu:18.04) docker image
+FROM nvcr.io/nvidia/l4t-pytorch:r32.6.1-pth1.9-py3
+
+# Switch to root
+USER root
+
+ENV LANG=C.UTF-8
+ENV LC_ALL=C.UTF-8
+
+# Address docker-compose not print the print() message
+ENV PYTHONUNBUFFERED=1
+
+# Install system dependencies
+# RUN apt-get update \
+RUN mkdir -p /usr/local/source/UbiFL
+
+# Set up project root working path
+ENV UBIFL_HOME=/usr/local/source/UbiFL
+
+
+# Change working dir
+WORKDIR /usr/local/source/UbiFL
+# Copy all sources files to workdir
+ADD ./ /usr/local/source/UbiFL
+
+# Warnings: This stage will ask github account, so how coud we do?
+# Prepare required project folder
+WORKDIR /usr/local/source/UbiFL
+RUN mkdir -p cache \
+&& mkdir -p cache/accuracy \
+&& mkdir -p cache/loss \
+&& mkdir -p cache/test_data \
+&& mkdir -p cache/test_data/partition \
+&& mkdir -p cache/train_data \
+&& mkdir -p cache/train_data/partition \
+&& mkdir -p running \
+&& mkdir -p running/checkpoints \
+&& mkdir -p running/logs
+
+# Install application dependencies
+RUN pip3 install -r /usr/local/source/UbiFL/ubifl_edge/CI/jetson_nano/requirements.txt
+
+WORKDIR /usr/local/source/UbiFL/ubifl_edge/experiments/fedavg
+# >>>>>>>>>>> Run executor.sh >>>>>>>>>>>
+RUN chmod +x executor_start.sh
+CMD bash -c "/usr/local/source/UbiFL/ubifl_edge/experiments/fedavg/executor_start.sh ../configs/cifar10/conf.yml /usr/local/source/UbiFL"

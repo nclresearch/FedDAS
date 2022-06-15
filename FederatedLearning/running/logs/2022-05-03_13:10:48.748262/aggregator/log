@@ -1,0 +1,15 @@
+2022-05-03T13:10:55.670231+0100|INFO|(AGGREGATOR) finished setting up environ
+2022-05-03T13:11:01.635733+0100|INFO|Start to partition dataset ...
+2022-05-03T13:11:04.921692+0100|INFO|Start to partition dataset ...
+2022-05-03T13:11:05.169406+0100|INFO|Subscribed server to mqtt_client topic: /mqtt_client/publish/RayLabDesktopUbuntu_5UBm
+2022-05-03T13:11:05.175641+0100|INFO|Payload size is : 443 Kb
+2022-05-03T13:11:05.175969+0100|INFO|b'' sent msg to topic: /aggregator/publish/RayLabDesktopUbuntu_5UBm
+2022-05-03T13:11:07.634420+0100|INFO|Aggregator 0 global model accuracy: 10.0
+2022-05-03T13:11:07.634622+0100|INFO|Aggregator 0 global model loss: 4.1589
+2022-05-03T13:14:59.814172+0100|INFO|(AGGREGATOR) is aggregating all sub-models ...
+2022-05-03T13:14:59.822475+0100|INFO|(AGGREGATOR) finished aggregate all sub-models
+2022-05-03T13:14:59.823771+0100|INFO|Subscribed server to mqtt_client topic: /mqtt_client/publish/RayLabDesktopUbuntu_5UBm
+2022-05-03T13:14:59.832263+0100|INFO|Payload size is : 443 Kb
+2022-05-03T13:14:59.832477+0100|INFO|b'' sent msg to topic: /aggregator/publish/RayLabDesktopUbuntu_5UBm
+2022-05-03T13:15:02.391682+0100|INFO|Aggregator 0 global model accuracy: 10.0
+2022-05-03T13:15:02.391859+0100|INFO|Aggregator 0 global model loss: 4.1589

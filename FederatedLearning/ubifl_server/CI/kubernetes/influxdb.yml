@@ -1,0 +1,74 @@
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  name: influxdb
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: influxdb
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        app: influxdb
+    spec:
+      containers:
+        - name: influxdb
+          image: influxdb
+          ports:
+            - containerPort: 8086
+          volumeMounts:
+            - name: influxdb-config
+              mountPath: /docker-entrypoint-initdb.d/init.sh
+              subPath: init.sh
+          env:
+            - name: DOCKER_INFLUXDB_INIT_MODE
+              value: setup
+            - name: DOCKER_INFLUXDB_INIT_USERNAME
+              value: admin
+            - name: DOCKER_INFLUXDB_INIT_PASSWORD
+              value: admin123
+            - name: DOCKER_INFLUXDB_INIT_ORG
+              value: NCL
+            - name: DOCKER_INFLUXDB_INIT_BUCKET
+              value: pre_setting
+            - name: DOCKER_INFLUXDB_INIT_RETENTION
+              value: 30d
+            - name: DOCKER_INFLUXDB_INIT_ADMIN_TOKEN
+              value: TokenForNCLProject
+      volumes:
+        - name: influxdb-config
+          configMap:
+            name: influxdb-config
+            defaultMode: 0777
+---
+kind: Service
+apiVersion: v1
+metadata:
+  labels:
+    app: influxdb
+  name: influxdb-service
+spec:
+  selector:
+    app: influxdb
+  type: NodePort
+  ports:
+    - name: influxdb-port
+      port: 8086
+      targetPort: 8086
+      nodePort: 30004
+      protocol: TCP
+---
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: influxdb-config
+  labels:
+    app: influxdb
+data:
+  init.sh: |
+    #!/bin/sh
+    set -x
+    influx bucket create -n running_monitoring -r 30d

@@ -1,0 +1,6 @@
+2022-05-05T16:58:56.911292+0100|INFO|(AGGREGATOR) finished setting up environ
+2022-05-05T16:59:07.398466+0100|INFO|Subscribed server to mqtt_client topic: /mqtt_client/publish/RayLabDesktopUbuntu_xdmQ
+2022-05-05T16:59:07.412497+0100|WARNING|Payload size is : 1 Mb
+2022-05-05T16:59:07.413567+0100|INFO|RayLabDesktopUbuntu_xdmQ sent msg to topic: /aggregator/publish/RayLabDesktopUbuntu_xdmQ
+2022-05-05T16:59:07.648753+0100|INFO|Sending dataset train-RayLabDesktopUbuntu_xdmQ.npy ...
+2022-05-05T16:59:07.650906+0100|INFO|Sending dataset test-RayLabDesktopUbuntu_xdmQ.npy ...

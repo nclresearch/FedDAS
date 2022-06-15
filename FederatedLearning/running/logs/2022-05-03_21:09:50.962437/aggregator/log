@@ -1,0 +1,48 @@
+2022-05-03T21:09:56.900771+0100|INFO|(AGGREGATOR) finished setting up environ
+2022-05-03T21:10:13.853252+0100|INFO|Start to partition dataset ...
+2022-05-03T21:10:17.075668+0100|INFO|Start to partition dataset ...
+2022-05-03T21:10:17.330658+0100|INFO|Subscribed server to mqtt_client topic: /mqtt_client/publish/RayLabDesktopUbuntu_6rbh
+2022-05-03T21:10:17.336973+0100|INFO|Payload size is : 443 Kb
+2022-05-03T21:10:17.337331+0100|INFO|RayLabDesktopUbuntu_6rbh sent msg to topic: /aggregator/publish/RayLabDesktopUbuntu_6rbh
+2022-05-03T21:14:02.570183+0100|INFO|(AGGREGATOR) is aggregating all sub-models ...
+2022-05-03T21:14:02.580799+0100|INFO|(AGGREGATOR) finished aggregate all sub-models
+2022-05-03T21:14:02.581945+0100|INFO|Subscribed server to mqtt_client topic: /mqtt_client/publish/RayLabDesktopUbuntu_6rbh
+2022-05-03T21:14:02.592812+0100|INFO|Payload size is : 443 Kb
+2022-05-03T21:14:02.593197+0100|INFO|RayLabDesktopUbuntu_6rbh sent msg to topic: /aggregator/publish/RayLabDesktopUbuntu_6rbh
+2022-05-03T21:17:39.817564+0100|INFO|(AGGREGATOR) is aggregating all sub-models ...
+2022-05-03T21:17:39.825985+0100|INFO|(AGGREGATOR) finished aggregate all sub-models
+2022-05-03T21:17:39.827238+0100|INFO|Subscribed server to mqtt_client topic: /mqtt_client/publish/RayLabDesktopUbuntu_6rbh
+2022-05-03T21:17:39.837870+0100|INFO|Payload size is : 443 Kb
+2022-05-03T21:17:39.838075+0100|INFO|RayLabDesktopUbuntu_6rbh sent msg to topic: /aggregator/publish/RayLabDesktopUbuntu_6rbh
+2022-05-03T21:21:19.047401+0100|INFO|(AGGREGATOR) is aggregating all sub-models ...
+2022-05-03T21:21:19.056936+0100|INFO|(AGGREGATOR) finished aggregate all sub-models
+2022-05-03T21:21:19.058399+0100|INFO|Subscribed server to mqtt_client topic: /mqtt_client/publish/RayLabDesktopUbuntu_6rbh
+2022-05-03T21:21:19.066507+0100|INFO|Payload size is : 443 Kb
+2022-05-03T21:21:19.066672+0100|INFO|RayLabDesktopUbuntu_6rbh sent msg to topic: /aggregator/publish/RayLabDesktopUbuntu_6rbh
+2022-05-03T21:25:02.261127+0100|INFO|(AGGREGATOR) is aggregating all sub-models ...
+2022-05-03T21:25:02.269467+0100|INFO|(AGGREGATOR) finished aggregate all sub-models
+2022-05-03T21:25:02.270533+0100|INFO|Subscribed server to mqtt_client topic: /mqtt_client/publish/RayLabDesktopUbuntu_6rbh
+2022-05-03T21:25:02.278459+0100|INFO|Payload size is : 443 Kb
+2022-05-03T21:25:02.278633+0100|INFO|RayLabDesktopUbuntu_6rbh sent msg to topic: /aggregator/publish/RayLabDesktopUbuntu_6rbh
+2022-05-03T21:25:05.003828+0100|INFO|Aggregator 0 global model accuracy: 10.0
+2022-05-03T21:25:05.004005+0100|INFO|Aggregator 0 global model loss: 4.1589
+2022-05-03T21:28:52.232682+0100|INFO|(AGGREGATOR) is aggregating all sub-models ...
+2022-05-03T21:28:52.241281+0100|INFO|(AGGREGATOR) finished aggregate all sub-models
+2022-05-03T21:28:52.242460+0100|INFO|Subscribed server to mqtt_client topic: /mqtt_client/publish/RayLabDesktopUbuntu_6rbh
+2022-05-03T21:28:52.254685+0100|INFO|Payload size is : 443 Kb
+2022-05-03T21:28:52.254908+0100|INFO|RayLabDesktopUbuntu_6rbh sent msg to topic: /aggregator/publish/RayLabDesktopUbuntu_6rbh
+2022-05-03T21:32:31.480240+0100|INFO|(AGGREGATOR) is aggregating all sub-models ...
+2022-05-03T21:32:31.488624+0100|INFO|(AGGREGATOR) finished aggregate all sub-models
+2022-05-03T21:32:31.489950+0100|INFO|Subscribed server to mqtt_client topic: /mqtt_client/publish/RayLabDesktopUbuntu_6rbh
+2022-05-03T21:32:31.497901+0100|INFO|Payload size is : 443 Kb
+2022-05-03T21:32:31.498145+0100|INFO|RayLabDesktopUbuntu_6rbh sent msg to topic: /aggregator/publish/RayLabDesktopUbuntu_6rbh
+2022-05-03T21:36:08.724205+0100|INFO|(AGGREGATOR) is aggregating all sub-models ...
+2022-05-03T21:36:08.732595+0100|INFO|(AGGREGATOR) finished aggregate all sub-models
+2022-05-03T21:36:08.733996+0100|INFO|Subscribed server to mqtt_client topic: /mqtt_client/publish/RayLabDesktopUbuntu_6rbh
+2022-05-03T21:36:08.741789+0100|INFO|Payload size is : 443 Kb
+2022-05-03T21:36:08.742099+0100|INFO|RayLabDesktopUbuntu_6rbh sent msg to topic: /aggregator/publish/RayLabDesktopUbuntu_6rbh
+2022-05-03T21:39:43.961146+0100|INFO|(AGGREGATOR) is aggregating all sub-models ...
+2022-05-03T21:39:43.970128+0100|INFO|(AGGREGATOR) finished aggregate all sub-models
+2022-05-03T21:39:43.970889+0100|INFO|Subscribed server to mqtt_client topic: /mqtt_client/publish/RayLabDesktopUbuntu_6rbh
+2022-05-03T21:39:43.980927+0100|INFO|Payload size is : 443 Kb
+2022-05-03T21:39:43.981491+0100|INFO|RayLabDesktopUbuntu_6rbh sent msg to topic: /aggregator/publish/RayLabDesktopUbuntu_6rbh

@@ -1,0 +1,62 @@
+version: "3"
+services:
+  prom:
+    image: prom/prometheus
+    ports:
+      - 9090:9090
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+      - /var/run/docker.sock:/var/run/docker.sock
+    user: root
+  node:
+    image: prom/node-exporter
+    ports:
+      - 9100:9100
+    volumes:
+      - /proc:/host/proc:ro
+      - /sys:/host/sys:ro
+      - /:/rootfs:ro
+  cadvisor:
+    image: zcube/cadvisor
+    ports:
+      - 8080:8080
+    volumes:
+      - /:/rootfs:ro
+      - /var/run:/var/run:ro
+      - /sys:/sys:ro
+      - /var/lib/docker:/var/lib/docker:ro
+      - /dev/disk:/dev/disk:ro
+  influxdb:
+    image: influxdb
+    ports:
+      - 8086:8086
+    environment:
+      DOCKER_INFLUXDB_INIT_USERNAME: admin
+      DOCKER_INFLUXDB_INIT_PASSWORD: admin123
+      DOCKER_INFLUXDB_INIT_ORG: NCL
+      DOCKER_INFLUXDB_INIT_BUCKET: pre_setting
+      DOCKER_INFLUXDB_INIT_MODE: setup
+      DOCKER_INFLUXDB_INIT_ADMIN_TOKEN: TokenForNCLProject
+      DOCKER_INFLUXDB_INIT_RETENTION: 30d
+    volumes:
+      - ./influxdb-init.sh:/docker-entrypoint-initdb.d/influxdb_init.sh
+  iot_executor:
+    image: iot_executor
+    build:
+      # This assumes you run docker-compose up from the directory this file is in
+      context: ../../../
+      dockerfile: ./ubifl_edge/CI/jetson_nano/Dockerfile_executor
+    # Change the hostname as needed  
+    hostname: ncl-iot-jetson-01
+    # To allow GPU allocation for docker compose
+    # Please update compose to v1.28 or newer
+    # If it is not available in apt, please remove the current one from apt and install from pip
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    volumes:
+      - /run/jtop.sock:/run/jtop.sock

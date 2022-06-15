@@ -1,0 +1,3 @@
+2022-05-02T17:12:56.357489+0100|INFO|(EXECUTOR:1) finished setting up environ
+2022-05-02T17:12:57.321921+0100|INFO|Got unique mqtt_client id : RayLabDesktopUbuntu_ddYd
+2022-05-02T17:12:57.322806+0100|INFO|Subscribed server to mqtt_client topic: /aggregator/publish/RayLabDesktopUbuntu_ddYd

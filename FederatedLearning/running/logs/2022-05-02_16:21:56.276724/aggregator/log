@@ -1,0 +1,50 @@
+2022-05-02T16:22:01.456869+0100|INFO|(AGGREGATOR) finished setting up environ
+2022-05-02T16:22:11.389426+0100|INFO|Start to partition dataset ...
+2022-05-02T16:22:14.862756+0100|INFO|Start to partition dataset ...
+2022-05-02T16:22:15.130916+0100|INFO|Subscribed server to mqtt_client topic: /mqtt_client/publish/RayLabDesktopUbuntu_8DSX
+2022-05-02T16:22:15.142817+0100|WARNING|Payload size is : 2 Mb
+2022-05-02T16:22:15.144192+0100|INFO|b'' sent msg to topic: /aggregator/publish/RayLabDesktopUbuntu_8DSX
+2022-05-02T16:22:18.824397+0100|INFO|Aggregator 0 global model accuracy: 0.12
+2022-05-02T16:22:18.824578+0100|INFO|Aggregator 0 global model loss: 15860.3597
+2022-05-02T16:28:51.198353+0100|INFO|(AGGREGATOR) is aggregating all sub-models ...
+2022-05-02T16:28:51.214009+0100|INFO|(AGGREGATOR) finished aggregate all sub-models
+2022-05-02T16:28:51.214916+0100|INFO|Subscribed server to mqtt_client topic: /mqtt_client/publish/RayLabDesktopUbuntu_8DSX
+2022-05-02T16:28:51.229041+0100|WARNING|Payload size is : 2 Mb
+2022-05-02T16:28:51.229422+0100|INFO|b'' sent msg to topic: /aggregator/publish/RayLabDesktopUbuntu_8DSX
+2022-05-02T16:28:54.948511+0100|INFO|Aggregator 0 global model accuracy: 67.46
+2022-05-02T16:28:54.948718+0100|INFO|Aggregator 0 global model loss: 0.9699
+2022-05-02T16:35:30.328155+0100|INFO|(AGGREGATOR) is aggregating all sub-models ...
+2022-05-02T16:35:30.343448+0100|INFO|(AGGREGATOR) finished aggregate all sub-models
+2022-05-02T16:35:30.344533+0100|INFO|Subscribed server to mqtt_client topic: /mqtt_client/publish/RayLabDesktopUbuntu_8DSX
+2022-05-02T16:35:30.359213+0100|WARNING|Payload size is : 2 Mb
+2022-05-02T16:35:30.359620+0100|INFO|b'' sent msg to topic: /aggregator/publish/RayLabDesktopUbuntu_8DSX
+2022-05-02T16:35:34.210581+0100|INFO|Aggregator 0 global model accuracy: 73.14
+2022-05-02T16:35:34.210776+0100|INFO|Aggregator 0 global model loss: 0.8103
+2022-05-02T16:42:09.605295+0100|INFO|(AGGREGATOR) is aggregating all sub-models ...
+2022-05-02T16:42:09.617367+0100|INFO|(AGGREGATOR) finished aggregate all sub-models
+2022-05-02T16:42:09.618270+0100|INFO|Subscribed server to mqtt_client topic: /mqtt_client/publish/RayLabDesktopUbuntu_8DSX
+2022-05-02T16:42:09.632524+0100|WARNING|Payload size is : 2 Mb
+2022-05-02T16:42:09.632914+0100|INFO|b'' sent msg to topic: /aggregator/publish/RayLabDesktopUbuntu_8DSX
+2022-05-02T16:42:13.194575+0100|INFO|Aggregator 0 global model accuracy: 72.96000000000001
+2022-05-02T16:42:13.194762+0100|INFO|Aggregator 0 global model loss: 0.8417
+2022-05-02T16:48:50.595715+0100|INFO|(AGGREGATOR) is aggregating all sub-models ...
+2022-05-02T16:48:50.608423+0100|INFO|(AGGREGATOR) finished aggregate all sub-models
+2022-05-02T16:48:50.609065+0100|INFO|Subscribed server to mqtt_client topic: /mqtt_client/publish/RayLabDesktopUbuntu_8DSX
+2022-05-02T16:48:50.622845+0100|WARNING|Payload size is : 2 Mb
+2022-05-02T16:48:50.623218+0100|INFO|b'' sent msg to topic: /aggregator/publish/RayLabDesktopUbuntu_8DSX
+2022-05-02T16:48:54.205897+0100|INFO|Aggregator 0 global model accuracy: 74.07000000000001
+2022-05-02T16:48:54.206087+0100|INFO|Aggregator 0 global model loss: 0.8499
+2022-05-02T16:55:38.597546+0100|INFO|(AGGREGATOR) is aggregating all sub-models ...
+2022-05-02T16:55:38.611414+0100|INFO|(AGGREGATOR) finished aggregate all sub-models
+2022-05-02T16:55:38.612340+0100|INFO|Subscribed server to mqtt_client topic: /mqtt_client/publish/RayLabDesktopUbuntu_8DSX
+2022-05-02T16:55:38.626052+0100|WARNING|Payload size is : 2 Mb
+2022-05-02T16:55:38.626382+0100|INFO|b'' sent msg to topic: /aggregator/publish/RayLabDesktopUbuntu_8DSX
+2022-05-02T16:55:42.131050+0100|INFO|Aggregator 0 global model accuracy: 72.87
+2022-05-02T16:55:42.131236+0100|INFO|Aggregator 0 global model loss: 0.9453
+2022-05-02T17:02:26.529482+0100|INFO|(AGGREGATOR) is aggregating all sub-models ...
+2022-05-02T17:02:26.542689+0100|INFO|(AGGREGATOR) finished aggregate all sub-models
+2022-05-02T17:02:26.543978+0100|INFO|Subscribed server to mqtt_client topic: /mqtt_client/publish/RayLabDesktopUbuntu_8DSX
+2022-05-02T17:02:26.560726+0100|WARNING|Payload size is : 2 Mb
+2022-05-02T17:02:26.561127+0100|INFO|b'' sent msg to topic: /aggregator/publish/RayLabDesktopUbuntu_8DSX
+2022-05-02T17:02:30.318470+0100|INFO|Aggregator 0 global model accuracy: 74.02
+2022-05-02T17:02:30.318675+0100|INFO|Aggregator 0 global model loss: 0.983

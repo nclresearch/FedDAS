@@ -1,0 +1,9 @@
+2022-05-24T12:12:07.723407+0100|INFO|(AGGREGATOR) finished setting up environ
+2022-05-24T12:12:18.198717+0100|INFO|Subscribed server to mqtt_client topic: /mqtt_client/publish/RayLabDesktopUbuntu_8jD4
+2022-05-24T12:12:18.208636+0100|WARNING|Payload size is : 1 Mb
+2022-05-24T12:12:18.209400+0100|INFO|RayLabDesktopUbuntu_8jD4 sent msg to topic: /aggregator/publish/RayLabDesktopUbuntu_8jD4
+2022-05-24T12:13:11.265614+0100|INFO|(AGGREGATOR) is aggregating all sub-models ...
+2022-05-24T12:13:11.277118+0100|INFO|(AGGREGATOR) finished aggregate all sub-models
+2022-05-24T12:13:11.277711+0100|INFO|Subscribed server to mqtt_client topic: /mqtt_client/publish/RayLabDesktopUbuntu_8jD4
+2022-05-24T12:13:11.290104+0100|WARNING|Payload size is : 1 Mb
+2022-05-24T12:13:11.290446+0100|INFO|RayLabDesktopUbuntu_8jD4 sent msg to topic: /aggregator/publish/RayLabDesktopUbuntu_8jD4

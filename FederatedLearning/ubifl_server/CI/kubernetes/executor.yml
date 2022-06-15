@@ -1,0 +1,20 @@
+CIapiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: executor
+  labels:
+    iot: executor
+spec:
+  replicas: 6
+  selector:
+    matchLabels:
+      iot: executor
+  template:
+    metadata:
+      name: executor
+      labels:
+        iot: executor
+    spec:
+      containers:
+        - name: executor
+          image: localhost:32000/iot_executor

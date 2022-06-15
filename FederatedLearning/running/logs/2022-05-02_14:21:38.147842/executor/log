@@ -1,0 +1,18 @@
+2022-05-02T14:21:41.228311+0100|INFO|(EXECUTOR:1) finished setting up environ
+2022-05-02T14:21:42.187099+0100|INFO|Got unique mqtt_client id : 123
+2022-05-02T14:21:42.187410+0100|INFO|Initializing the model ...
+2022-05-02T14:21:42.195483+0100|INFO|Model initialized
+2022-05-02T14:21:44.526448+0100|INFO|Subscribed server to mqtt_client topic: /aggregator/publish/123
+2022-05-02T14:21:49.205834+0100|INFO| 123 finished load global model
+2022-05-02T14:21:49.206087+0100|INFO|123 start to load training data ...
+2022-05-02T14:21:49.298521+0100|INFO|123 finished to load train data
+2022-05-02T14:21:49.298812+0100|INFO|123 start to load test data ...
+2022-05-02T14:21:49.309207+0100|INFO|123 finished to load test data
+2022-05-02T14:22:28.026206+0100|INFO|123, global model accuracy: 7.5
+2022-05-02T14:22:28.026397+0100|INFO|123, global model loss: 2.3029
+2022-05-02T14:22:28.026473+0100|INFO|123, local model train accuracy: 75.0398
+2022-05-02T14:22:28.026556+0100|INFO|123, local model train loss: 0.6973
+2022-05-02T14:22:28.026634+0100|INFO|123, local model test accuracy: 70.89999999999999
+2022-05-02T14:22:28.026704+0100|INFO|123, local model test loss: 0.911
+2022-05-02T14:22:28.030264+0100|WARNING|Payload size is : 2 Mb
+2022-05-02T14:22:28.030631+0100|INFO|b'' sent msg to topic: /mqtt_client/publish/123

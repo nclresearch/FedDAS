@@ -1,0 +1,8 @@
+2022-05-01T14:25:18.361414+0100|INFO|(AGGREGATOR) finished setting up environ
+2022-05-01T14:25:27.336303+0100|INFO|Start to partition dataset ...
+2022-05-01T14:25:30.677385+0100|INFO|Start to partition dataset ...
+2022-05-01T14:25:30.915691+0100|INFO|Subscribed server to client topic: /client/publish/RayLabDesktopUbuntu_369m
+2022-05-01T14:25:30.917039+0100|WARNING|Payload size is : 2 Mb
+2022-05-01T14:25:30.917423+0100|INFO|b'RayLabDesktopUbuntu_369m' sent msg to topic: /aggregator/publish/RayLabDesktopUbuntu_369m
+2022-05-01T14:25:32.268392+0100|INFO|Aggregator 0 global model accuracy: 8.63
+2022-05-01T14:25:32.268577+0100|INFO|Aggregator 0 global model loss: 2.3022

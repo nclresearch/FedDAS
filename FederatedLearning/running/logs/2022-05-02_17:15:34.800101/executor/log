@@ -1,0 +1,21 @@
+2022-05-02T17:15:41.669425+0100|INFO|(EXECUTOR:1) finished setting up environ
+2022-05-02T17:15:42.607255+0100|INFO|Got unique mqtt_client id : RayLabDesktopUbuntu_42oS
+2022-05-02T17:15:42.608124+0100|INFO|Subscribed server to mqtt_client topic: /aggregator/publish/RayLabDesktopUbuntu_42oS
+2022-05-02T17:15:47.190844+0100|INFO| RayLabDesktopUbuntu_42oS finished load global model
+2022-05-02T17:15:47.190990+0100|INFO|RayLabDesktopUbuntu_42oS start to load training data ...
+2022-05-02T17:15:47.274309+0100|INFO|RayLabDesktopUbuntu_42oS finished to load train data
+2022-05-02T17:15:47.274611+0100|INFO|RayLabDesktopUbuntu_42oS start to load test data ...
+2022-05-02T17:15:47.282125+0100|INFO|RayLabDesktopUbuntu_42oS finished to load test data
+2022-05-02T17:22:20.915077+0100|INFO|RayLabDesktopUbuntu_42oS, global model accuracy: 2.75
+2022-05-02T17:22:20.915266+0100|INFO|RayLabDesktopUbuntu_42oS, global model loss: 13004.6682
+2022-05-02T17:22:20.915342+0100|INFO|RayLabDesktopUbuntu_42oS, local model train accuracy: 61.264799999999994
+2022-05-02T17:22:20.915404+0100|INFO|RayLabDesktopUbuntu_42oS, local model train loss: 1.2459
+2022-05-02T17:22:20.915461+0100|INFO|RayLabDesktopUbuntu_42oS, local model test accuracy: 66.8
+2022-05-02T17:22:20.915516+0100|INFO|RayLabDesktopUbuntu_42oS, local model test loss: 0.969
+2022-05-02T17:22:20.934187+0100|WARNING|Payload size is : 2 Mb
+2022-05-02T17:22:20.934562+0100|INFO|b'' sent msg to topic: /mqtt_client/publish/RayLabDesktopUbuntu_42oS
+2022-05-02T17:22:22.928922+0100|INFO| RayLabDesktopUbuntu_42oS finished load global model
+2022-05-02T17:22:22.929112+0100|INFO|RayLabDesktopUbuntu_42oS start to load training data ...
+2022-05-02T17:22:23.015635+0100|INFO|RayLabDesktopUbuntu_42oS finished to load train data
+2022-05-02T17:22:23.015868+0100|INFO|RayLabDesktopUbuntu_42oS start to load test data ...
+2022-05-02T17:22:23.023183+0100|INFO|RayLabDesktopUbuntu_42oS finished to load test data

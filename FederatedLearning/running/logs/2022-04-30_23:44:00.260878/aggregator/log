@@ -1,0 +1,9 @@
+2022-04-30T23:44:05.952114+0100|INFO|(AGGREGATOR) finished setting up environ
+2022-04-30T23:44:11.942537+0100|INFO|Start to partition dataset ...
+2022-04-30T23:44:11.942812+0100|INFO|Start to partition train dataset for 68ff23e52d5847f89f2b6975e6b62b9e-Host-RayLabDesktopUbuntu
+2022-04-30T23:44:15.334700+0100|INFO|Finished partition dataset
+2022-04-30T23:44:15.351266+0100|INFO|Start to partition dataset ...
+2022-04-30T23:44:15.351423+0100|INFO|Start to partition test dataset for 68ff23e52d5847f89f2b6975e6b62b9e-Host-RayLabDesktopUbuntu
+2022-04-30T23:44:15.592471+0100|INFO|Finished partition dataset
+2022-04-30T23:44:16.986005+0100|INFO|Aggregator 0 global model accuracy: 11.24
+2022-04-30T23:44:16.986202+0100|INFO|Aggregator 0 global model loss: 2.3033

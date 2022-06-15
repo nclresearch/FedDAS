@@ -1,0 +1,40 @@
+# Base on image_full_name (e.g., ubuntu:18.04) docker image
+FROM python:3.8.12
+
+# Switch to root
+USER root
+
+# Install system dependencies
+# RUN apt-get update \
+RUN mkdir /usr/local/source/UbiFL
+
+# Set up project root working path
+ENV UBIFL_HOME=/usr/local/source/UbiFL
+
+# Address docker-compose not print the print() message
+ENV PYTHONUNBUFFERED=1
+
+# Change working dir
+WORKDIR /usr/local/source/UbiFL
+# Copy all sources files to workdir
+ADD ./ /usr/local/source/UbiFL
+
+# Warnings: This stage will ask github account, so how coud we do?
+# Prepare required project folder
+WORKDIR /usr/local/source/UbiFL
+RUN mkdir -p cache \
+&& mkdir -p cache/accuracy \
+&& mkdir -p cache/loss \
+&& mkdir -p cache/test_data \
+&& mkdir -p cache/test_data/partition \
+&& mkdir -p cache/train_data \
+&& mkdir -p cache/train_data/partition \
+&& mkdir -p running \
+&& mkdir -p running/checkpoints \
+&& mkdir -p running/logs
+
+RUN pip3 install -r /usr/local/source/UbiFL/ubifl_edge/CI/respberry_pi4/requirements.txt
+
+# >>>>>>>>>>> Run executor.sh >>>>>>>>>>>
+RUN chmod +x /usr/local/source/UbiFL/ubifl_edge/experiments/fedavg/executor_start.sh
+CMD bash -c "/usr/local/source/UbiFL/ubifl_edge/experiments/fedavg/executor_start.sh ../configs/cifar10/conf.yml /usr/local/source/UbiFL"

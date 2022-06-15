@@ -1,0 +1,8 @@
+2022-05-02T13:56:40.164600+0100|INFO|(AGGREGATOR) finished setting up environ
+2022-05-02T13:56:47.147436+0100|INFO|Start to partition dataset ...
+2022-05-02T13:56:50.442098+0100|INFO|Start to partition dataset ...
+2022-05-02T13:56:50.683915+0100|INFO|Subscribed server to client topic: /client/publish/123
+2022-05-02T13:56:50.685365+0100|WARNING|Payload size is : 2 Mb
+2022-05-02T13:56:50.686288+0100|INFO|123 sent msg to topic: /aggregator/publish/123
+2022-05-02T13:56:52.011475+0100|INFO|Aggregator 0 global model accuracy: 10.07
+2022-05-02T13:56:52.011672+0100|INFO|Aggregator 0 global model loss: 2.3052

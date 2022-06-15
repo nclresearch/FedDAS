@@ -1,0 +1,65 @@
+2022-05-19T10:09:20.210760+0100|INFO|(EXECUTOR:0) finished setting up environ
+2022-05-19T10:09:20.211359+0100|INFO|Subscribed server to mqtt_client topic: /aggregator/publish/RayLabDesktopUbuntu_5b7E
+2022-05-19T10:09:20.278729+0100|INFO|(EXECUTOR:0) finished setting up environ
+2022-05-19T10:09:20.279555+0100|INFO|Subscribed server to mqtt_client topic: /aggregator/publish/RayLabDesktopUbuntu_5Thd
+2022-05-19T10:09:20.302025+0100|INFO|(EXECUTOR:0) finished setting up environ
+2022-05-19T10:09:20.302727+0100|INFO|Subscribed server to mqtt_client topic: /aggregator/publish/RayLabDesktopUbuntu_3Bnu
+2022-05-19T10:09:20.374325+0100|INFO|(EXECUTOR:0) finished setting up environ
+2022-05-19T10:09:20.374947+0100|INFO|Subscribed server to mqtt_client topic: /aggregator/publish/RayLabDesktopUbuntu_32Zj
+2022-05-19T10:09:20.425634+0100|INFO|(EXECUTOR:0) finished setting up environ
+2022-05-19T10:09:20.426173+0100|INFO|Subscribed server to mqtt_client topic: /aggregator/publish/RayLabDesktopUbuntu_3sQ4
+2022-05-19T10:09:31.163458+0100|INFO| RayLabDesktopUbuntu_5b7E finished load global model
+2022-05-19T10:09:31.163805+0100|INFO|RayLabDesktopUbuntu_5b7E start to load training data ...
+2022-05-19T10:09:31.190824+0100|INFO| RayLabDesktopUbuntu_5Thd finished load global model
+2022-05-19T10:09:31.191151+0100|INFO|RayLabDesktopUbuntu_5Thd start to load training data ...
+2022-05-19T10:09:31.260742+0100|INFO| RayLabDesktopUbuntu_3Bnu finished load global model
+2022-05-19T10:09:31.261058+0100|INFO|RayLabDesktopUbuntu_3Bnu start to load training data ...
+2022-05-19T10:09:31.267278+0100|INFO| RayLabDesktopUbuntu_32Zj finished load global model
+2022-05-19T10:09:31.269449+0100|INFO|RayLabDesktopUbuntu_32Zj start to load training data ...
+2022-05-19T10:09:31.277271+0100|INFO| RayLabDesktopUbuntu_3sQ4 finished load global model
+2022-05-19T10:09:31.277636+0100|INFO|RayLabDesktopUbuntu_3sQ4 start to load training data ...
+2022-05-19T10:09:32.793799+0100|INFO|RayLabDesktopUbuntu_5b7E finished to load train data
+2022-05-19T10:09:32.794055+0100|INFO|RayLabDesktopUbuntu_5b7E start to load test data ...
+2022-05-19T10:09:32.880143+0100|INFO|RayLabDesktopUbuntu_3Bnu finished to load train data
+2022-05-19T10:09:32.880500+0100|INFO|RayLabDesktopUbuntu_3Bnu start to load test data ...
+2022-05-19T10:09:32.891871+0100|INFO|RayLabDesktopUbuntu_3sQ4 finished to load train data
+2022-05-19T10:09:32.892206+0100|INFO|RayLabDesktopUbuntu_3sQ4 start to load test data ...
+2022-05-19T10:09:32.905971+0100|INFO|RayLabDesktopUbuntu_5b7E finished to load test data
+2022-05-19T10:09:32.920226+0100|INFO|cid : RayLabDesktopUbuntu_5b7E Labels: [tensor([6, 8, 4, 7, 9, 0, 3, 5, 9, 7, 7, 8, 0, 5, 8, 6, 0, 7, 0, 4, 1, 6, 5, 6,
+        7, 1, 1, 6, 4, 8, 0, 5]), tensor([6, 9, 9, 0, 7, 3, 8, 7, 1, 9, 3, 9, 9, 0, 0, 8, 6, 3, 3, 1, 2, 9, 5, 0,
+        7, 6, 5, 9, 4, 8, 5, 1]), tensor([8, 8, 4, 9, 9, 0, 9, 1, 4, 4, 7, 7, 1, 6, 1, 8, 7, 8, 9, 9, 1, 8, 3, 8,
+        1, 2, 7, 3, 4, 1, 9, 4]), tensor([1, 1, 3, 9, 3, 4, 1, 9, 3, 5, 0, 3, 1, 3, 5, 9, 9, 5, 5, 7, 9, 8, 1, 3,
+        0, 0, 4, 8, 8, 3, 7, 2]), tensor([3, 9, 4, 2, 4, 0, 0, 9, 9, 0, 7, 5, 1, 7, 3, 0, 0, 6, 6, 7, 5, 4, 6, 0,
+        3, 2, 3, 3, 3, 9, 1, 0])]
+2022-05-19T10:09:33.002442+0100|INFO|RayLabDesktopUbuntu_3Bnu finished to load test data
+2022-05-19T10:09:33.015006+0100|INFO|RayLabDesktopUbuntu_3sQ4 finished to load test data
+2022-05-19T10:09:33.016594+0100|INFO|cid : RayLabDesktopUbuntu_3Bnu Labels: [tensor([6, 8, 4, 7, 9, 0, 3, 5, 9, 7, 7, 8, 0, 5, 8, 6, 0, 7, 0, 4, 1, 6, 5, 6,
+        7, 1, 1, 6, 4, 8, 0, 5]), tensor([6, 9, 9, 0, 7, 3, 8, 7, 1, 9, 3, 9, 9, 0, 0, 8, 6, 3, 3, 1, 2, 9, 5, 0,
+        7, 6, 5, 9, 4, 8, 5, 1]), tensor([8, 8, 4, 9, 9, 0, 9, 1, 4, 4, 7, 7, 1, 6, 1, 8, 7, 8, 9, 9, 1, 8, 3, 8,
+        1, 2, 7, 3, 4, 1, 9, 4]), tensor([1, 1, 3, 9, 3, 4, 1, 9, 3, 5, 0, 3, 1, 3, 5, 9, 9, 5, 5, 7, 9, 8, 1, 3,
+        0, 0, 4, 8, 8, 3, 7, 2]), tensor([3, 9, 4, 2, 4, 0, 0, 9, 9, 0, 7, 5, 1, 7, 3, 0, 0, 6, 6, 7, 5, 4, 6, 0,
+        3, 2, 3, 3, 3, 9, 1, 0])]
+2022-05-19T10:09:33.030358+0100|INFO|cid : RayLabDesktopUbuntu_3sQ4 Labels: [tensor([6, 8, 4, 7, 9, 0, 3, 5, 9, 7, 7, 8, 0, 5, 8, 6, 0, 7, 0, 4, 1, 6, 5, 6,
+        7, 1, 1, 6, 4, 8, 0, 5]), tensor([6, 9, 9, 0, 7, 3, 8, 7, 1, 9, 3, 9, 9, 0, 0, 8, 6, 3, 3, 1, 2, 9, 5, 0,
+        7, 6, 5, 9, 4, 8, 5, 1]), tensor([8, 8, 4, 9, 9, 0, 9, 1, 4, 4, 7, 7, 1, 6, 1, 8, 7, 8, 9, 9, 1, 8, 3, 8,
+        1, 2, 7, 3, 4, 1, 9, 4]), tensor([1, 1, 3, 9, 3, 4, 1, 9, 3, 5, 0, 3, 1, 3, 5, 9, 9, 5, 5, 7, 9, 8, 1, 3,
+        0, 0, 4, 8, 8, 3, 7, 2]), tensor([3, 9, 4, 2, 4, 0, 0, 9, 9, 0, 7, 5, 1, 7, 3, 0, 0, 6, 6, 7, 5, 4, 6, 0,
+        3, 2, 3, 3, 3, 9, 1, 0])]
+2022-05-19T10:09:33.325293+0100|INFO|RayLabDesktopUbuntu_5Thd finished to load train data
+2022-05-19T10:09:33.325794+0100|INFO|RayLabDesktopUbuntu_5Thd start to load test data ...
+2022-05-19T10:09:33.442158+0100|INFO|RayLabDesktopUbuntu_5Thd finished to load test data
+2022-05-19T10:09:33.456903+0100|INFO|cid : RayLabDesktopUbuntu_5Thd Labels: [tensor([6, 8, 4, 7, 9, 0, 3, 5, 9, 7, 7, 8, 0, 5, 8, 6, 0, 7, 0, 4, 1, 6, 5, 6,
+        7, 1, 1, 6, 4, 8, 0, 5]), tensor([6, 9, 9, 0, 7, 3, 8, 7, 1, 9, 3, 9, 9, 0, 0, 8, 6, 3, 3, 1, 2, 9, 5, 0,
+        7, 6, 5, 9, 4, 8, 5, 1]), tensor([8, 8, 4, 9, 9, 0, 9, 1, 4, 4, 7, 7, 1, 6, 1, 8, 7, 8, 9, 9, 1, 8, 3, 8,
+        1, 2, 7, 3, 4, 1, 9, 4]), tensor([1, 1, 3, 9, 3, 4, 1, 9, 3, 5, 0, 3, 1, 3, 5, 9, 9, 5, 5, 7, 9, 8, 1, 3,
+        0, 0, 4, 8, 8, 3, 7, 2]), tensor([3, 9, 4, 2, 4, 0, 0, 9, 9, 0, 7, 5, 1, 7, 3, 0, 0, 6, 6, 7, 5, 4, 6, 0,
+        3, 2, 3, 3, 3, 9, 1, 0])]
+2022-05-19T10:09:33.485821+0100|INFO|RayLabDesktopUbuntu_32Zj finished to load train data
+2022-05-19T10:09:33.486251+0100|INFO|RayLabDesktopUbuntu_32Zj start to load test data ...
+2022-05-19T10:09:33.627110+0100|INFO|RayLabDesktopUbuntu_32Zj finished to load test data
+2022-05-19T10:09:33.661906+0100|INFO|cid : RayLabDesktopUbuntu_32Zj Labels: [tensor([6, 8, 4, 7, 9, 0, 3, 5, 9, 7, 7, 8, 0, 5, 8, 6, 0, 7, 0, 4, 1, 6, 5, 6,
+        7, 1, 1, 6, 4, 8, 0, 5]), tensor([6, 9, 9, 0, 7, 3, 8, 7, 1, 9, 3, 9, 9, 0, 0, 8, 6, 3, 3, 1, 2, 9, 5, 0,
+        7, 6, 5, 9, 4, 8, 5, 1]), tensor([8, 8, 4, 9, 9, 0, 9, 1, 4, 4, 7, 7, 1, 6, 1, 8, 7, 8, 9, 9, 1, 8, 3, 8,
+        1, 2, 7, 3, 4, 1, 9, 4]), tensor([1, 1, 3, 9, 3, 4, 1, 9, 3, 5, 0, 3, 1, 3, 5, 9, 9, 5, 5, 7, 9, 8, 1, 3,
+        0, 0, 4, 8, 8, 3, 7, 2]), tensor([3, 9, 4, 2, 4, 0, 0, 9, 9, 0, 7, 5, 1, 7, 3, 0, 0, 6, 6, 7, 5, 4, 6, 0,
+        3, 2, 3, 3, 3, 9, 1, 0])]
